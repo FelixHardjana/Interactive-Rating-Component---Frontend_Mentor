@@ -17,7 +17,7 @@ main{
 }
 
 .main-rating-panel, .rating-result{
-    background: linear-gradient(hsl(216, 12%, 17%), hsl(213, 19%, 15%), hsl(216, 12%, 12%));
+    background: linear-gradient(hsl(216, 12%, 15%), hsl(213, 19%, 15%), hsl(216, 12%, 12%));
     
     font-family: Overpass;
 
@@ -47,7 +47,7 @@ main{
 
 .circle-button, .rating-button button{
     color: hsla(217, 12%, 63%, 0.65);
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 20%);
 
     border-radius: 50%;
     border: none;
