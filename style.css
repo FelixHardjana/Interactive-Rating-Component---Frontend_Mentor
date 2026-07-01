@@ -26,7 +26,7 @@ main{
     justify-content: center;
     align-items: flex-start;
 
-    width: 350px;  
+    width: 370px;  
     padding: 30px;
     
     border-radius: 20px;
@@ -119,11 +119,23 @@ button[type="submit"]:hover{
 
 }
 
-#rating-selection{
-    color: hsl(25, 97%, 53%);
-    background-color: hsl(213, 19%, 18%);
+#rating-selection-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(213, 19%, 25%);
+
     margin-top: 30px;
     margin-bottom: 15px;
+    padding: 10px 25px;
+
+    border-radius: 20px;
+}
+
+#rating-selection{
+    color: hsl(25, 97%, 53%);
 }
 
 
