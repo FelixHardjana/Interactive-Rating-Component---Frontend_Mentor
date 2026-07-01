@@ -23,7 +23,7 @@
 <body>
   <main>
 
-    <div class="main-rating-panel">
+    <div class="main-rating-panel" style="display: inline-flex">
 
       <div class="circle-button">
         <img src="./images/icon-star.svg" alt="star-icon">
@@ -41,21 +41,24 @@
          <!-- The button from the JS file are now here -->
       </div>
     
-      <button type="submit">SUBMIT</button>
+      <button id="button-submit" type="submit">SUBMIT</button>
 
     </div>
-    
+          
       <!-- Rating state end -->
     
+    <div class="rating-result" style="display: none">
+
       <!-- Thank you state start -->
+      <img id="thank-you-image" src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
+      <span id="rating-selection">You selected <span id="rating-review"></span> out of 5</span>
     
-      You selected <!-- Add rating here --> out of 5
-    
-      Thank you!
+      <h1>Thank you!</h1>
     
       We appreciate you taking the time to give a rating. If you ever need more support, 
       don't hesitate to get in touch!
 
+    </div>
 
 
   </main>
